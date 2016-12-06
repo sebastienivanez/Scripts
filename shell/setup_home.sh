@@ -31,8 +31,7 @@ then
 	if [ -f ~/.bashrc ]
 	then
 		mv ~/.bashrc ~/.bashrc_old
-		#touch ~/.bashrc
-		ln -s ../my_bashrc ~/.bashrc
+		cp ../my_bashrc ~/.bashrc
 	else
 		echo "Warning: No file .bashrc in home"
 	fi
