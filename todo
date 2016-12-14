@@ -1,0 +1,6 @@
+Add a script to make git usage easier and quicker (13/12/2016)
+	git start
+		Does git status or git pull or create a git repository ...
+		Then propose to do add
+		Then if add propose to commit with message
+		Then if commit propose to push 
