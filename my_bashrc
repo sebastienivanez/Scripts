@@ -144,16 +144,19 @@ alias seek='~/scripts/shell/seek.sh'
 #############
 # FUNCTIONS #
 #############
-function ccd { 
+function ccd {
 	cd *$1* 
 }
-function g { 
+function g {
 	gedit $* & 
 }
-function lg { 
+function hg {
+	history | grep $1
+}
+function lg {
 	ls -lrt | grep $1 
 }
-function n { 
+function n {
 	nedit -xrm '*font: -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*' $* & 
 }
 
