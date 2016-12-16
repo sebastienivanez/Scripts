@@ -132,7 +132,9 @@ alias l='clear & ls -lrt'
 alias la='clear & ls -lrta'
 alias nedit="nedit -xrm '*font: -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*'"
 alias so='source ~/.bashrc'
-
+alias file.c='cp ~/scripts/commons/file.c .'
+alias file.h='cp ~/scripts/commons/file.h .'
+alias file.cpp='cp ~/scripts/commons/file.cpp .'
 
 ###########
 # SCRIPTS #

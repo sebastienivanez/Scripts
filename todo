@@ -4,3 +4,5 @@ Add a script to make git usage easier and quicker (13/12/2016)
 		Then propose to do add
 		Then if add propose to commit with message
 		Then if commit propose to push 
+
+Add a doxygen config and description on how to use it

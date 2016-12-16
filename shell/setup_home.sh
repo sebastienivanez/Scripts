@@ -32,6 +32,7 @@ then
 	then
 		mv ~/.bashrc ~/.bashrc_old
 		cp ../my_bashrc ~/.bashrc
+		source ~/.bashrc
 	else
 		echo "Warning: No file .bashrc in home"
 	fi
