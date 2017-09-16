@@ -126,10 +126,15 @@ fi
 ##########
 # BASICS #
 ##########
+alias 775='chmod 775'
+alias 777='chmod 777'
 alias bashrc='gedit ~/.bashrc &'
 alias c='clear'
+alias hh='history'
 alias l='clear & ls -lrt'
 alias la='clear & ls -lrta'
+alias lc='ls | wc -l'
+alias ll="ls -lv --group-directories-first --color"
 alias nedit="nedit -xrm '*font: -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*'"
 alias so='source ~/.bashrc'
 alias file.c='cp ~/scripts/commons/file.c .'
@@ -152,7 +157,13 @@ function ccd {
 function g {
 	gedit $* & 
 }
+function gr {
+	grep -nr $1 ./
+}
 function hg {
+	history | grep $1
+}
+function hig {
 	history | grep $1
 }
 function lg {
