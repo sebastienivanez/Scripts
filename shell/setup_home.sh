@@ -4,6 +4,10 @@ echo "Deal with reports ? (y/n) "
 read var_reports
 if [ "$var_reports" = "y" ] || [ "$var_reports" = "yes" ]
 then
+	echo "Info: Cloning from git ..."
+	cd ~/
+	git clone https://github.com/sebastienivanez/reports.git
+	cd -
 	echo "Info: Dealing with reports repository"
 	if [ -d ~/reports ]
 	then
