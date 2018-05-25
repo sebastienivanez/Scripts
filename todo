@@ -6,3 +6,5 @@ Add a script to make git usage easier and quicker (13/12/2016)
 		Then if commit propose to push 
 
 Add a doxygen config and description on how to use it
+
+Improve command "gr" to grep on a string
