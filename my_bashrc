@@ -137,16 +137,9 @@ alias lc='ls | wc -l'
 alias ll="ls -lv --group-directories-first --color"
 alias nedit="nedit -xrm '*font: -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*'"
 alias so='source ~/.bashrc'
-alias file.c='cp ~/scripts/commons/file.c .'
-alias file.h='cp ~/scripts/commons/file.h .'
-alias file.cpp='cp ~/scripts/commons/file.cpp .'
-
-###########
-# SCRIPTS #
-###########
-alias gg='~/scripts/shell/gedit.sh'
-alias nn='~/scripts/shell/nedit.sh'
-alias seek='~/scripts/shell/seek.sh'
+alias file.c='cp ~/Scripts/commons/file.c .'
+alias file.h='cp ~/Scripts/commons/file.h .'
+alias file.cpp='cp ~/Scripts/commons/file.cpp .'
 
 #############
 # FUNCTIONS #
@@ -173,7 +166,16 @@ function n {
 	nedit -xrm '*font: -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*' $* & 
 }
 
-#########
-# PATHS #
-#########
+###########
+# SCRIPTS #
+###########
+alias gg='~/Scripts/shell/gedit.sh'
+alias nn='~/Scripts/shell/nedit.sh'
+alias scripts='cd ~/Scripts'
+alias seek='~/Scripts/shell/seek.sh'
 
+#############
+# XPR_Poker #
+#############
+alias xpr='cd ~/XPR_Poker'
+alias xprso='source ~/XPR_Poker/make_script.sh'
