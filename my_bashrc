@@ -140,6 +140,7 @@ alias so='source ~/.bashrc'
 alias file.c='cp ~/Scripts/commons/file.c .'
 alias file.h='cp ~/Scripts/commons/file.h .'
 alias file.cpp='cp ~/Scripts/commons/file.cpp .'
+alias file.hpp='cp ~/Scripts/commons/file.hpp .'
 
 #############
 # FUNCTIONS #
