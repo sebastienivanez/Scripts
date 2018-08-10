@@ -4,19 +4,13 @@ echo "Deal with reports ? (y/n) "
 read var_reports
 if [ "$var_reports" = "y" ] || [ "$var_reports" = "yes" ]
 then
-	echo "Info: Cloning from git ..."
-	cd ~/
-	git clone https://github.com/sebastienivanez/reports.git
-	cd -
 	echo "Info: Dealing with reports repository"
-	if [ -d ~/reports ]
+	if [ -d ~/Scripts/reports ]
 	then
-		mkdir ~/reports_fmr
-		cp ~/reports/d* ~/reports_fmr
-		cp ~/reports/o* ~/reports_fmr
-		cp ~/reports/i* ~/reports_fmr
-		rm -rf ~/reports
-		mv ~/reports_fmr ~/reports
+		mkdir ~/Reports
+		cp ~/Scripts/reports/d* ~/Reports
+		cp ~/Scripts/reports/o* ~/Reports
+		cp ~/Scripts/reports/i* ~/Reports
 	else
 		echo "Warning: No reports repository"
 	fi

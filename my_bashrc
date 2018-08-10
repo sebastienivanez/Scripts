@@ -126,6 +126,7 @@ fi
 ##########
 # BASICS #
 ##########
+alias 664='chmod 664'
 alias 775='chmod 775'
 alias 777='chmod 777'
 alias bashrc='gedit ~/.bashrc &'
@@ -137,10 +138,10 @@ alias lc='ls | wc -l'
 alias ll="ls -lv --group-directories-first --color"
 alias nedit="nedit -xrm '*font: -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*'"
 alias so='source ~/.bashrc'
-alias file.c='cp ~/Scripts/commons/file.c .'
-alias file.h='cp ~/Scripts/commons/file.h .'
-alias file.cpp='cp ~/Scripts/commons/file.cpp .'
-alias file.hpp='cp ~/Scripts/commons/file.hpp .'
+alias file.c='cp ~/Scripts/common/file.c .'
+alias file.h='cp ~/Scripts/common/file.h .'
+alias file.cpp='cp ~/Scripts/common/file.cpp .'
+alias file.hpp='cp ~/Scripts/common/file.hpp .'
 
 #############
 # FUNCTIONS #
@@ -167,16 +168,26 @@ function n {
 	nedit -xrm '*font: -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*' $* & 
 }
 
+######################
+# Monty_Hall_Problem #
+######################
+alias Monty_Hall_Problem='cd ~/Monty_Hall_Problem'
+
+###########
+# Reports #
+###########
+alias Reports='cd ~/Reports'
+
 ###########
 # SCRIPTS #
 ###########
 alias gg='~/Scripts/shell/gedit.sh'
 alias nn='~/Scripts/shell/nedit.sh'
-alias scripts='cd ~/Scripts'
+alias Scripts='cd ~/Scripts'
 alias seek='~/Scripts/shell/seek.sh'
 
 #############
 # XPR_Poker #
 #############
-alias xpr='cd ~/XPR_Poker'
-alias xprso='source ~/XPR_Poker/make_script.sh'
+alias XPR_Poker='cd ~/XPR_Poker'
+alias XPR_Poker_so='source ~/XPR_Poker/make_script.sh'
