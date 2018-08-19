@@ -1,16 +1,19 @@
 #! /usr/bin/env bash
 
+SCRIPTS_PATH=~/Scripts
+REPORTS_PATH=~/Scripts/reports
+
 echo "Deal with reports ? (y/n) "
 read var_reports
 if [ "$var_reports" = "y" ] || [ "$var_reports" = "yes" ]
 then
 	echo "Info: Dealing with reports repository"
-	if [ -d ~/Scripts/reports ]
+	if [ -d $REPORTS_PATH ]
 	then
 		mkdir ~/Reports
-		cp ~/Scripts/reports/d* ~/Reports
-		cp ~/Scripts/reports/o* ~/Reports
-		cp ~/Scripts/reports/i* ~/Reports
+		cp $REPORTS_PATH/d* ~/Reports
+		cp $REPORTS_PATH/o* ~/Reports
+		cp $REPORTS_PATH/i* ~/Reports
 	else
 		echo "Warning: No reports repository"
 	fi
@@ -29,7 +32,7 @@ then
 	if [ -f ~/.bashrc ]
 	then
 		mv ~/.bashrc ~/.bashrc_old
-		cp ../my_bashrc ~/.bashrc
+		cp $SCRIPTS_PATH/my_bashrc ~/.bashrc
 		source ~/.bashrc
 	else
 		echo "Warning: No file .bashrc in home"
