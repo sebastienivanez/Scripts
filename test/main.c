@@ -9,8 +9,10 @@
 //#include <iomanip> // To call setw()
 //#include <iostream> // To call cout/cin
 //#include <sstream> // To call stringstream
+//#include <stdbool.h> // To use bool in c
+//#include <sys/statvfs.h> // To calculate diskUsage/freeDiskSpace
 //#include <stdint.h> // To use uint8_t
-//#include <stdlib.h> // To call malloc()/sleep()
+//#include <stdlib.h> // To call malloc()/sleep()/system()
 //#include <stdio.h> // To call printf()
 //#include <unistd.h> // To call read()
 //#include <vector> // To use vector
