@@ -3,7 +3,7 @@
  */
  
 /* INCLUDES */
-//#include <cstdlib> // To call atoi()
+//#include <cstdlib> // To call atoi()/rand()/srand()
 //#include <cstring> // To use strcpy()
 //#include <fcntl.h> // To call open()
 //#include <iomanip> // To call setw()
@@ -30,5 +30,5 @@ using namespace std;
  */
 int main(int argc, char *argv[])
 {
-	return 0;
+  return 0;
 }

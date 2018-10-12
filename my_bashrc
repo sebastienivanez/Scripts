@@ -123,6 +123,11 @@ if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
+##############
+# Algorithms #
+##############
+alias Algorithms='cd ~/Algorithms'
+
 ##########
 # BASICS #
 ##########
@@ -130,6 +135,7 @@ alias 664='chmod 664'
 alias 775='chmod 775'
 alias 777='chmod 777'
 alias bashrc='gedit ~/.bashrc &'
+alias build='cmake -H. -Bbuild && cmake --build build'
 alias c='clear'
 alias hh='history'
 alias l='clear & ls -lrt'
@@ -168,6 +174,11 @@ function n {
 	nedit -xrm '*font: -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*' $* & 
 }
 
+#################
+# Documentation #
+#################
+alias Documentation='cd ~/Documentation'
+
 ######################
 # Monty_Hall_Problem #
 ######################
@@ -185,6 +196,11 @@ alias gg='~/Scripts/shell/gedit.sh'
 alias nn='~/Scripts/shell/nedit.sh'
 alias Scripts='cd ~/Scripts'
 alias seek='~/Scripts/shell/seek.sh'
+
+##############
+# Tavli_Game #
+##############
+alias Tavli_Game='cd ~/Tavli_Game'
 
 #############
 # XPR_Poker #
