@@ -3,20 +3,24 @@
  */
  
 /* INCLUDES */
-//#include <cstdlib> // To call atoi()/rand()/srand()
-//#include <cstring> // To use strcpy()
-//#include <fcntl.h> // To call open()
-//#include <iomanip> // To call setw()
-//#include <iostream> // To call cout/cin
-//#include <sstream> // To call stringstream
-//#include <stdbool.h> // To use bool in c
-//#include <sys/statvfs.h> // To calculate diskUsage/freeDiskSpace
-//#include <stdint.h> // To use uint8_t
-//#include <stdlib.h> // To call malloc()/sleep()/system()
-//#include <stdio.h> // To call printf()
-//#include <unistd.h> // To call read()
-//#include <vector> // To use vector
-//#include <string> // To use string
+#include <assert.h> // To call assert()
+#include <cstddef> // To use NULL
+#include <cstdlib> // To call atoi()/rand()/srand()
+#include <cstring> // To use strcpy()
+#include <fcntl.h> // To call open()
+#include <iomanip> // To call setw()
+#include <iostream> // To call cout/cin
+#include <sstream> // To call stringstream
+#include <stdbool.h> // To use bool in c
+#include <sys/statvfs.h> // To calculate diskUsage/freeDiskSpace
+#include <sys/timeb.h> // To use _ftime
+#include <stdint.h> // To use uint8_t
+#include <stdlib.h> // To call malloc()/system()
+#include <stdio.h> // To call printf()
+#include <time.h> // To use
+#include <unistd.h> // To call read()/sleep()
+#include <vector> // To use vector
+#include <string> // To use string
 
 /* MACROS */
 

@@ -13,3 +13,5 @@ Needed packages
 	git
 	gedit
 	cmake
+
+In command file.cpp file.h add a name if wanted when creating the files
