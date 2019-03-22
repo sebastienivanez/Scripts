@@ -17,10 +17,11 @@
 #include <stdint.h> // To use uint8_t
 #include <stdlib.h> // To call malloc()/system()
 #include <stdio.h> // To call printf()
+#include <sstream> // To use string
+#include <string> // To use string
 #include <time.h> // To use
 #include <unistd.h> // To call read()/sleep()
 #include <vector> // To use vector
-#include <string> // To use string
 
 /* MACROS */
 
