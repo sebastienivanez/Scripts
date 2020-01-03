@@ -22,8 +22,11 @@
 #include <time.h> // To use
 #include <unistd.h> // To call read()/sleep()
 #include <vector> // To use vector
+#include "base_type.h"
+#include "constantes.h"
 
 /* MACROS */
+//#define test printf("test = %d\n", TAILLE); printf("test = %d\n", TAILLE);
 
 /*! \namespace std */
 using namespace std;
@@ -35,5 +38,4 @@ using namespace std;
  */
 int main(int argc, char *argv[])
 {
-  return 0;
 }
