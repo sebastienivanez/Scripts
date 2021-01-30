@@ -1,4 +1,5 @@
-CFLAGS=-c -g -Wall -Werror
+# c++11 to use chrono
+CFLAGS=-c -g -Wall -Werror -std=c++11
 
 all: main clean
 main: main.o

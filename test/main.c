@@ -22,14 +22,17 @@
 #include <time.h> // To use
 #include <unistd.h> // To call read()/sleep()
 #include <vector> // To use vector
-#include "base_type.h"
-#include "constantes.h"
+#include <chrono> // To use 
+#include "BaseType.h"
+#include "timeStamp.h"
 
 /* MACROS */
 //#define test printf("test = %d\n", TAILLE); printf("test = %d\n", TAILLE);
 
 /*! \namespace std */
 using namespace std;
+/*! \namespace chrono */
+using namespace chrono;
 
 /*!
  * \details Entry function to project.
@@ -38,4 +41,8 @@ using namespace std;
  */
 int main(int argc, char *argv[])
 {
+  //auto start = steady_clock::now();
+  //auto end = steady_clock::now();
+  //duration<double> elapsed_seconds = end;
+  //cout << "elapsed time: " << elapsed_seconds.count() << "s\n";
 }
